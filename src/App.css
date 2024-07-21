@@ -1,0 +1,42 @@
+.nav-box {
+  border-radius: 0 0 16px 16px;
+}
+.boxClose {
+  height: 24px;
+}
+.dropdown-content {
+  padding: 10px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.dropdown-content > p {
+  font-size: 14px;
+  font-style: normal;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.dropdown-content > p:hover {
+  color: #d7255e;
+}
+
+.text-home-1 {
+  --tw-text-opacity: 1;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.book-demo {
+  background: linear-gradient(transparent, transparent) padding-box padding-box,
+    linear-gradient(
+        to left,
+        rgba(33, 117, 243, 0.82),
+        rgba(144, 53, 255, 0.835),
+        rgba(144, 53, 255, 0.843)
+      )
+      border-box border-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
