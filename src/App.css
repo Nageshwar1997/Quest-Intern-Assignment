@@ -40,3 +40,11 @@
       border-box border-box;
   border: 1px solid rgba(0, 0, 0, 0);
 }
+
+.main-top-background {
+  background-image: url("./assets/header/Pattern-smV21Nn4.svg"),
+    url("./assets/header/background1.svg");
+  background-size: 90% 100%, 130% 110%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50% 200px, center;
+}
