@@ -5,26 +5,26 @@ const Header = () => {
   const [showResources, setShowResources] = useState(false);
 
   return (
-    <header className="w-full lg:px-[100px] py-6 fixed flex align-middle top-0 z-50 rounded h-[88px] backdrop-blur-3xl">
-      <div className="w-[1440px] backdrop-blur-sm nav-box px-5 rounded-b-xl m-auto flex flex-col relative boxClose">
+    <header className="w-full lg:px-[88px] fixed flex align-middle top-0 z-50 rounded h-[72px] py-6 backdrop-blur-3xl">
+      <div className="w-full backdrop-blur-sm nav-box px-5 rounded-b-xl mx-auto flex flex-col relative boxClose">
         <div className="w-full flex self-center justify-between items-center pr-3 md:px-0 cursor-pointer">
-          <div className="flex align-middle text-home-1 w-[224px] cursor-pointer text-white">
+          <div className="flex items-center text-home-1 w-[224px] cursor-pointer text-white">
             <img
               src={qLogo}
               alt="Quest Labs Logo"
               className="mr-1 self-center w-[18.6px] h-[18.6px]"
             />
-            <p className="text-center font-bold text-[22px] leading-[24px]">
+            <p className="text-center font-bold font-figtree text-[22px] leading-6">
               Quest
             </p>
           </div>
           <div className="hidden md:flex gap-[22px] justify-between items-center text-white">
             <div className="dropdown-container hover:text-[#d7255e]">
-              <div className="text-center font-medium text-sm leading-5">
+              <div className="text-center font-medium text-sm leading-5 font-figtree">
                 Playbook
               </div>
             </div>
-            <div className="dropdown-container relative hover:text-[#d7255e]">
+            <div className="dropdown-container relative font-figtree hover:text-[#d7255e]">
               <div
                 className="text-center font-medium text-sm leading-5"
                 onMouseEnter={() => setShowResources(true)}
@@ -33,7 +33,7 @@ const Header = () => {
                 Resources
               </div>
               <div
-                className={`dropdown-content w-48 ${
+                className={`dropdown-content w-48 font-figtree ${
                   showResources ? "flex" : "hidden"
                 } text-white flex-col absolute top-4 -left-2.5 text-sm font-medium leading-5`}
                 onMouseEnter={() => setShowResources(true)}
