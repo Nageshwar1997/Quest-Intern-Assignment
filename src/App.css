@@ -48,3 +48,26 @@
   background-repeat: no-repeat, no-repeat;
   background-position: 50% 200px, center;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+img,
+svg {
+  display: block;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+
+.productMapCardStyle {
+  background: url("https://www.questlabs.ai/assets/prod_bg-F1TqfWXJ.png");
+  width: fit-content;
+  border-radius: 16px;
+  border: 1.5px solid #535353;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
